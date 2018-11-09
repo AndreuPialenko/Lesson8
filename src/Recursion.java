@@ -32,7 +32,7 @@ public class Recursion {
     private static int[] createArray (Scanner sc){
         System.out.println("введите длинну");
         int lenght = sc.nextInt();
-        
+
         int[] array = new int[lenght];;
 
         if (lenght == 0 || lenght >10){
